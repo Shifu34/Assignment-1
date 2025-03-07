@@ -7,6 +7,7 @@ def train_model(data):
     print(data)
     return "trained_model"
 
+
 if __name__ == '__main__':
     sample_data = [1, 2, 3, 4, 5]
     model = train_model(sample_data)
